@@ -1,4 +1,6 @@
 EESchema Schematic File Version 2
+LIBS:masterbox-rescue
+LIBS:ledbox-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +32,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:ledbox-newsymbols
 LIBS:switches
-LIBS:ledbox-cache
+LIBS:masterbox-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
