@@ -245,8 +245,6 @@ Text HLabel 3600 5100 2    60   Output ~ 0
 ~RESET
 Text HLabel 4300 5100 2    60   Output ~ 0
 PUSH1
-Text HLabel 5000 5100 2    60   Output ~ 0
-PUSH2
 Text HLabel 7950 5625 0    60   Input ~ 0
 LED1
 Text HLabel 8650 5625 0    60   Input ~ 0
@@ -302,59 +300,10 @@ Wire Wire Line
 	8650 5625 8750 5625
 Wire Wire Line
 	8750 5625 8750 5525
-$Comp
-L +5V #PWR026
-U 1 1 5A53FCDA
-P 5550 4600
-F 0 "#PWR026" H 5550 4450 50  0001 C CNN
-F 1 "+5V" H 5550 4740 50  0000 C CNN
-F 2 "" H 5550 4600 50  0001 C CNN
-F 3 "" H 5550 4600 50  0001 C CNN
-	1    5550 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R304
-U 1 1 5A53FCE0
-P 5550 4850
-F 0 "R304" V 5630 4850 50  0000 C CNN
-F 1 "10k" V 5550 4850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 5480 4850 50  0001 C CNN
-F 3 "" H 5550 4850 50  0001 C CNN
-	1    5550 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 5100 5650 5100
-Wire Wire Line
-	5550 5000 5550 5200
-Wire Wire Line
-	5550 4600 5550 4700
-$Comp
-L SW_Push SW1
-U 1 1 5A53FCE9
-P 5550 5400
-F 0 "SW1" H 5600 5500 50  0000 L CNN
-F 1 "Push 3" H 5550 5340 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_PUSH_6mm_h5mm" H 5550 5600 50  0001 C CNN
-F 3 "" H 5550 5600 50  0001 C CNN
-	1    5550 5400
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR027
-U 1 1 5A53FCEF
-P 5550 5700
-F 0 "#PWR027" H 5550 5450 50  0001 C CNN
-F 1 "GND" H 5550 5550 50  0000 C CNN
-F 2 "" H 5550 5700 50  0001 C CNN
-F 3 "" H 5550 5700 50  0001 C CNN
-	1    5550 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 5700 5550 5600
-Connection ~ 5550 5100
-Text HLabel 5650 5100 2    60   Output ~ 0
-PUSH3
+Text HLabel 5000 5100 2    60   Output ~ 0
+PUSH2
+Text Notes 4000 6025 0    60   ~ 0
+Start-Btn\n
+Text Notes 4750 6000 0    60   ~ 0
+Stop-Btn
 $EndSCHEMATC
